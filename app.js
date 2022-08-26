@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
     res.redirect('/request/NoName')
 })
 app.get('/request/:name', (req, res) => {
-    res.send(`Hello ${req.params.name}! This is SecondGen`)
+    res.send(`Hello ${req.params.name}! This is ThirdGen`)
 })
